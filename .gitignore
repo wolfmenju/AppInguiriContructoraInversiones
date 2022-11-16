@@ -1,0 +1,25 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Comun/bin/Debug
+/Comun/obj/Debug
+/Datos/bin/Debug
+/Datos/obj/Debug
+/Entidad/bin/Debug
+/Entidad/obj/Debug
+/Negocio/bin/Debug
+/Negocio/obj/Debug
+/AppInguiri/bin/Debug
+/AppInguiri/obj/Debug
+/Bd.zip
+/AppInguiri/bin/Release
+/AppInguiri/obj/Release
+/Comun/bin/Release
+/Comun/obj/Release
+/Datos/bin/Release
+/Datos/obj/Release
+/Entidad/bin/Release
+/Entidad/obj/Release
+/Negocio/bin/Release
+/Negocio/obj/Release
