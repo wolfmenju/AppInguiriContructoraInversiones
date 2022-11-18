@@ -255,7 +255,24 @@ namespace AppInguiri
 
         private void txtSerie_KeyPress(object sender, KeyPressEventArgs e)
         {
-            Funciones.ValidarNumeroEntero(e, txtSerie);
+          if (Char.IsNumber(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (Char.IsLetter(e.KeyChar))
+            {
+
+                e.Handled = false;
+            }
+            else if (Char.IsControl(e.KeyChar))
+            {
+
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
         }
 
         private void txtNumero_KeyPress(object sender, KeyPressEventArgs e)
